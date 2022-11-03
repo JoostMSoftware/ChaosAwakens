@@ -152,6 +152,7 @@ public class ChaosAwakens {
 			dataGenerator.addProvider(new CAGlobalLootModifierProvider(dataGenerator));
 			dataGenerator.addProvider(new CALootTableProvider(dataGenerator));
 			dataGenerator.addProvider(new CARecipeProvider(dataGenerator));
+			dataGenerator.addProvider(new CAEnglishAmericanLanguageProvider(dataGenerator));
 			dataGenerator.addProvider(new CATagProvider.CABlockTagProvider(dataGenerator, existing));
 			dataGenerator.addProvider(new CATagProvider.CAItemTagProvider(dataGenerator, existing));
 			dataGenerator.addProvider(new CATagProvider.CAEntityTypeTagProvider(dataGenerator, existing));

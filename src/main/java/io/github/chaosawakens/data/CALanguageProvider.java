@@ -2,6 +2,8 @@ package io.github.chaosawakens.data;
 
 import io.github.chaosawakens.ChaosAwakens;
 import io.github.chaosawakens.common.registry.CABlocks;
+import io.github.chaosawakens.common.registry.CAEnchantments;
+import io.github.chaosawakens.common.registry.CAEntityTypes;
 import io.github.chaosawakens.common.registry.CAItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.LanguageProvider;
@@ -565,7 +567,6 @@ public class CALanguageProvider {
             this.add(CAItems.ALUMINUM_INGOT.get(), "Aluminium Ingot");
             this.add(CAItems.ALUMINUM_NUGGET.get(), "Aluminium Nugget");
             this.add(CAItems.ALUMINUM_POWER_CHIP.get(), "Aluminium Power Chip");
-            this.add(CAItems.APPLE_SIGN.get(), "Apple Sign");
             this.add(CAItems.APPLE_COW_SPAWN_EGG.get(), "Apple Cow Spawn Egg");
             this.add(CAItems.ATTITUDE_ADJUSTER.get(), "Attitude Adjuster");
             this.add(CAItems.BEAVER_SPAWN_EGG.get(), "Beaver Spawn Egg");
@@ -597,7 +598,6 @@ public class CALanguageProvider {
             this.add(CAItems.CARROT_PIG_SPAWN_EGG.get(),"Carrot Pig Spawn Egg");
             this.add(CAItems.CHEESE.get(),"Cheese");
             this.add(CAItems.CHERRIES.get(),"Cherries");
-            this.add(CAItems.CHERRY_SIGN.get(),"Cherry Sign");
             this.add(CAItems.COOKED_BACON.get(),"Cooked Bacon");
             this.add(CAItems.COOKED_CORNDOG.get(),"Cooked Corndog");
             this.add(CAItems.COOKED_CRAB_MEAT.get(),"Cooked Crab Meat");
@@ -628,7 +628,6 @@ public class CALanguageProvider {
             this.add(CAItems.CRYSTAL_GATOR_SPAWN_EGG.get(),"Crystal Gator Spawn Egg");
             this.add(CAItems.CRYSTAL_POTATO.get(),"Crystal Potato");
             this.add(CAItems.CRYSTAL_SHARD.get(),"Crystal Shard");
-            this.add(CAItems.CRYSTAL_TORCH.get(),"Crystal Torch");
             this.add(CAItems.CRYSTAL_WOOD_AXE.get(),"Crystal Wood Axe");
             this.add(CAItems.CRYSTAL_WOOD_HOE.get(),"Crystal Wood Hoe");
             this.add(CAItems.CRYSTAL_WOOD_PICKAXE.get(),"Crystal Wood Pickaxe");
@@ -642,7 +641,6 @@ public class CALanguageProvider {
             this.add(CAItems.DEAD_IRUKANDJI.get(), "Dead Irukandji");
             this.add(CAItems.DEAD_STINK_BUG.get(), "Dead Stink Bug");
             this.add(CAItems.DIMETRODON_SPAWN_EGG.get(), "Dimetrodon Spawn Egg");
-            this.add(CAItems.DUPLICATION_SIGN.get(), "Duplication Sign");
             this.add(CAItems.EMERALD_AXE.get(), "Emerald Axe");
             this.add(CAItems.EMERALD_BOOTS.get(), "Emerald Boots");
             this.add(CAItems.EMERALD_CHESTPLATE.get(), "Emerald Chestplate");
@@ -669,13 +667,11 @@ public class CALanguageProvider {
             this.add(CAItems.EXPERIENCE_HELMET.get(), "Experience Helmet");
             this.add(CAItems.EXPERIENCE_LEGGINGS.get(), "Experience Leggings");
             this.add(CAItems.EXPERIENCE_SWORD.get(), "Experience Leggings");
-            this.add(CAItems.EXTREME_TORCH.get(), "Extreme Torch");
             this.add(CAItems.FAIRY_SWORD.get(), "Fairy Sword");
             this.add(CAItems.FIRE_FISH.get(), "Fire Fish");
             this.add(CAItems.GARDEN_SALAD.get(), "Garden Salad");
             this.add(CAItems.GAZELLE_SPAWN_EGG.get(), "Gazelle Spawn Egg");
             this.add(CAItems.GIANT_SPAWN_EGG.get(), "Giant Spawn Egg");
-            this.add(CAItems.GINKGO_SIGN.get(), "Ginko Sign");
             this.add(CAItems.GOLDEN_APPLE_COW_SPAWN_EGG.get(), "Golden Apple Cow Spawn Egg");
             this.add(CAItems.GOLDEN_BAKED_POTATO.get(), "Golden Baked Potato");
             this.add(CAItems.GOLDEN_BEETROOT.get(), "Golden Beetroot");
@@ -728,7 +724,6 @@ public class CALanguageProvider {
             this.add(CAItems.NIGHTMARE_SWORD.get(), "Nightmare Sword");
             this.add(CAItems.OAK_ENT_SPAWN_EGG.get(), "Oak Ent Spawn Egg");
             this.add(CAItems.PEACH.get(), "Peach");
-            this.add(CAItems.PEACH_SIGN.get(), "Peach Sign");
             this.add(CAItems.PEACOCK_FEATHER.get(), "Peacock Feather");
             this.add(CAItems.PEACOCK_FEATHER_BOOTS.get(), "Peacock Feather Boots");
             this.add(CAItems.PEACOCK_FEATHER_CHESTPLATE.get(), "Peacock Feather Chestplate");
@@ -812,7 +807,6 @@ public class CALanguageProvider {
             this.add(CAItems.SILVER_SHOVEL.get(), "Silver Shovel");
             this.add(CAItems.SILVER_SWORD.get(), "Silver Sword");
             this.add(CAItems.SKATE_STRING_BOW.get(), "Skate String Bow");
-            this.add(CAItems.SKYWOOD_SIGN.get(), "Skywood Sign");
             this.add(CAItems.SLAYER_CHAINSAW.get(), "Slayer Chainsaw");
             this.add(CAItems.SNOW_GOLEM_SPAWN_EGG.get(), "Snow Golem Spawn Egg");
             this.add(CAItems.SPARK_FISH.get(), "Spark Fish");
@@ -824,7 +818,6 @@ public class CALanguageProvider {
             this.add(CAItems.STRAWBERRY_SEEDS.get(), "Strawberry Seeds");
             this.add(CAItems.SUN_FISH.get(), "Sun Fish");
             this.add(CAItems.SUNSTONE.get(), "Sunstone");
-            this.add(CAItems.SUNSTONE_TORCH.get(), "Sunstone Torch");
             this.add(CAItems.TERMITE_SPAWN_EGG.get(), "Termite Spawn Egg");
             this.add(CAItems.THUNDER_STAFF.get(), "Thunder Staff");
             this.add(CAItems.TIGERS_EYE.get(), "Tigers Eye");
@@ -885,7 +878,56 @@ public class CALanguageProvider {
             this.add(CAItems.ZOO_CAGE_MEDIUM.get(), "Zoo Cage Medium");
             this.add(CAItems.ZOO_CAGE_SMALL.get(), "Zoo Cage Small");
 
-            thjo
+            // Enchantments
+            this.add(CAEnchantments.IGNITION.get(), "Ignition");
+
+            // Entity Types
+            this.add(CAEntityTypes.ACACIA_ENT.get(), "Acacia Ent");
+            this.add(CAEntityTypes.APPLE_COW.get(), "Apple Cow");
+            this.add(CAEntityTypes.BEAVER.get(), "Beaver");
+            this.add(CAEntityTypes.BIRCH_ENT.get(), "Birch Ent");
+            this.add(CAEntityTypes.BIRD.get(), "Bird");
+            this.add(CAEntityTypes.BROWN_ANT.get(), "Brown Ant");
+            this.add(CAEntityTypes.CARROT_PIG.get(), "Carrot Pig");
+            this.add(CAEntityTypes.CRIMSON_ENT.get(), "Crimson Ent");
+            this.add(CAEntityTypes.CRYSTAL_APPLE_COW.get(), "Crystal Apple Cow");
+            this.add(CAEntityTypes.CRYSTAL_GATOR.get(), "Crystal Gator");
+            this.add(CAEntityTypes.CRYSTAL_CARROT_PIG.get(), "Crystal Carrot Pig");
+            this.add(CAEntityTypes.DARK_OAK_ENT.get(), "Dark Oak Ent");
+            this.add(CAEntityTypes.DIMETRODON.get(), "Dimetrodon");
+            this.add(CAEntityTypes.ENCHANTED_GOLDEN_APPLE_COW.get(), "Enchanted Golden Apple Cow");
+            this.add(CAEntityTypes.ENCHANTED_GOLDEN_CARROT_PIG.get(), "Enchanted Golden Carrot Pig");
+            this.add(CAEntityTypes.EMERALD_GATOR.get(), "Emerald Gator");
+            this.add(CAEntityTypes.EXPLOSIVE_BALL.get(), "Explosive Ball");
+            this.add(CAEntityTypes.GAZELLE.get(), "Gazelle");
+            this.add(CAEntityTypes.GOLDEN_APPLE_COW.get(), "Golden Apple Cow");
+            this.add(CAEntityTypes.GOLDEN_CARROT_PIG.get(), "Golden Carrot Pig");
+            this.add(CAEntityTypes.GREEN_FISH.get(), "Green Fish");
+            this.add(CAEntityTypes.HERCULES_BEETLE.get(), "Hercules Beetle");
+            this.add(CAEntityTypes.IRUKANDJI_ARROW.get(), "Irukandji Arrow");
+            this.add(CAEntityTypes.JUNGLE_ENT.get(), "Jungle Ent");
+            this.add(CAEntityTypes.LAVA_EEL.get(), "Lava Eel");
+            this.add(CAEntityTypes.OAK_ENT.get(), "Oak Ent");
+            this.add(CAEntityTypes.RAINBOW_ANT.get(), "Rainbow Ant");
+            this.add(CAEntityTypes.RED_ANT.get(), "Rent Ant");
+            this.add(CAEntityTypes.ROCK_FISH.get(), "Rock Fish");
+            this.add(CAEntityTypes.ROBO_LASER.get(), "Robo Laser");
+            this.add(CAEntityTypes.ROBO_POUNDER.get(), "Robo Pounder");
+            this.add(CAEntityTypes.ROBO_SNIPER.get(), "Robo Sniper");
+            this.add(CAEntityTypes.ROBO_WARRIOR.get(), "Robo Warrior");
+            this.add(CAEntityTypes.RUBY_BUG.get(), "Ruby Bug");
+            this.add(CAEntityTypes.SPARK_FISH.get(), "Spark Fish");
+            this.add(CAEntityTypes.SPRUCE_ENT.get(), "Spruce Ent");
+            this.add(CAEntityTypes.STINK_BUG.get(), "Stink Bug");
+            this.add(CAEntityTypes.TERMITE.get(), "Termite");
+            this.add(CAEntityTypes.THUNDER_BALL.get(), "Thunder Ball");
+            this.add(CAEntityTypes.TREE_FROG.get(), "Tree Frog");
+            this.add(CAEntityTypes.ULTIMATE_ARROW.get(), "Ultimate Arrow");
+            this.add(CAEntityTypes.ULTIMATE_FISHING_BOBBER.get(), "Ultimate Fishing Bobber");
+            this.add(CAEntityTypes.WASP.get(), "Wasp");
+            this.add(CAEntityTypes.WARPED_ENT.get(), "Warped Ent");
+            this.add(CAEntityTypes.WHALE.get(), "Whale");
+            this.add(CAEntityTypes.WOOD_FISH.get(), "Wood Fish");
         }
     }
 }

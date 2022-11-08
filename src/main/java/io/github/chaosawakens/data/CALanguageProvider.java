@@ -825,6 +825,67 @@ public class CALanguageProvider {
             this.add(CAItems.SUN_FISH.get(), "Sun Fish");
             this.add(CAItems.SUNSTONE.get(), "Sunstone");
             this.add(CAItems.SUNSTONE_TORCH.get(), "Sunstone Torch");
+            this.add(CAItems.TERMITE_SPAWN_EGG.get(), "Termite Spawn Egg");
+            this.add(CAItems.THUNDER_STAFF.get(), "Thunder Staff");
+            this.add(CAItems.TIGERS_EYE.get(), "Tigers Eye");
+            this.add(CAItems.TIGERS_EYE_AXE.get(), "Tigers Eye Axe");
+            this.add(CAItems.TIGERS_EYE_BOOTS.get(), "Tigers Eye Boots");
+            this.add(CAItems.TIGERS_EYE_CHESTPLATE.get(), "Tigers Eye Chestplate");
+            this.add(CAItems.TIGERS_EYE_HOE.get(), "Tigers Eye Hoe");
+            this.add(CAItems.TIGERS_EYE_HELMET.get(), "Tigers Eye Helmet");
+            this.add(CAItems.TIGERS_EYE_LEGGINGS.get(), "Tigers Eye Leggings");
+            this.add(CAItems.TIGERS_EYE_PICKAXE.get(), "Tigers Eye Pickaxe");
+            this.add(CAItems.TIGERS_EYE_SHOVEL.get(), "Tigers Eye Shovel");
+            this.add(CAItems.TIGERS_EYE_SWORD.get(), "Tigers Eye Sword");
+            this.add(CAItems.TIN_AXE.get(), "Tin Axe");
+            this.add(CAItems.TIN_BOOTS.get(), "Tin Boots");
+            this.add(CAItems.TIN_CHESTPLATE.get(), "Tin Chestplate");
+            this.add(CAItems.TIN_HELMET.get(), "Tin Helmet");
+            this.add(CAItems.TIN_HOE.get(), "Tin Hoe");
+            this.add(CAItems.TIN_LEGGINGS.get(), "Tin Leggings");
+            this.add(CAItems.TIN_LUMP.get(), "Tin Lump");
+            this.add(CAItems.TIN_PICKAXE.get(), "Tin Pickaxe");
+            this.add(CAItems.TIN_SHOVEL.get(), "Tin Shovel");
+            this.add(CAItems.TIN_SWORD.get(), "Tin Sword");
+            this.add(CAItems.TITANIUM_INGOT.get(), "Titanium Ingot");
+            this.add(CAItems.TITANIUM_NUGGET.get(), "Titanium Nugget");
+            this.add(CAItems.TOMATO.get(), "Tomato");
+            this.add(CAItems.TOMATO_SEEDS.get(), "Tomato Seeds");
+            this.add(CAItems.TREE_FROG_SPAWN_EGG.get(), "Tree Frog Spawn Egg");
+            this.add(CAItems.TRIFFID_GOO.get(), "Triffid Goo");
+            this.add(CAItems.ULTIMATE_APPLE.get(), "Ultimate Apple");
+            this.add(CAItems.ULTIMATE_AXE.get(), "Ultimate Axe");
+            this.add(CAItems.ULTIMATE_BOOTS.get(), "Ultimate Boots");
+            this.add(CAItems.ULTIMATE_BOW.get(), "Ultimate Bow");
+            this.add(CAItems.ULTIMATE_CHESTPLATE.get(), "Ultimate Chestplate");
+            this.add(CAItems.ULTIMATE_FISHING_ROD.get(), "Ultimate Fishing Rod");
+            this.add(CAItems.ULTIMATE_HELMET.get(), "Ultimate Helmet");
+            this.add(CAItems.ULTIMATE_HOE.get(), "Ultimate Hoe");
+            this.add(CAItems.ULTIMATE_LEGGINGS.get(), "Ultimate Leggings");
+            this.add(CAItems.ULTIMATE_PICKAXE.get(), "Ultimate Pickaxe");
+            this.add(CAItems.ULTIMATE_SHOVEL.get(), "Ultimate Shovel");
+            this.add(CAItems.ULTIMATE_SWORD.get(), "Ultimate Sword");
+            this.add(CAItems.UNSTABLE_ANT_SPAWN_EGG.get(), "Unstable Ant Spawn Egg");
+            this.add(CAItems.URANIUM_INGOT.get(), "Uranium Ingot");
+            this.add(CAItems.URANIUM_NUGGET.get(), "Uranium Nugget");
+            this.add(CAItems.VENISON.get(), "Venison");
+            this.add(CAItems.VORTEX_EYE.get(), "Vortex Eye");
+            this.add(CAItems.WARPED_ENT_SPAWN_EGG.get(), "Warped Ent Spawn Egg");
+            this.add(CAItems.WASP_SPAWN_EGG.get(), "Wasp Spawn Egg");
+            this.add(CAItems.WATER_DRAGON_SCALE.get(), "Water Dragon Scale");
+            this.add(CAItems.WHALE_SPAWN_EGG.get(), "Whale Spawn Egg");
+            this.add(CAItems.WITHER_SPAWN_EGG.get(), "Wither Spawn Egg");
+            this.add(CAItems.WOOD_FISH.get(), "Wood Fish");
+            this.add(CAItems.WOOD_FISH_BUCKET.get(), "Wood Fish Bucket");
+            this.add(CAItems.WOOD_FISH_SPAWN_EGG.get(), "Wood Fish Spawn Egg");
+            this.add(CAItems.WORM_TOOTH.get(), "Worm Tooth");
+            this.add(CAItems.ZOO_CAGE_EXTRA_LARGE.get(), "Zoo Cage Extra Large");
+            this.add(CAItems.ZOO_CAGE_EXTRA_SMALL.get(), "Zoo Cage Extra Small");
+            this.add(CAItems.ZOO_CAGE_LARGE.get(), "Zoo Cage Large");
+            this.add(CAItems.ZOO_CAGE_MEDIUM.get(), "Zoo Cage Medium");
+            this.add(CAItems.ZOO_CAGE_SMALL.get(), "Zoo Cage Small");
+
+            thjo
         }
     }
 }
